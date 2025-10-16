@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  devhabit.api:
+    build:
+      context: "/home/terrence/ApiLearning/DevHabit"
+      dockerfile: "src/DevHabit.Api/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/DevHabit.Api.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "devhabit.api:dev"
+    ports: []
+    volumes:
+    - "/home/terrence/ApiLearning/DevHabit/src/DevHabit.Api:/app:rw"
+    - "/home/terrence/ApiLearning/DevHabit:/src:rw"
+    - "/home/terrence/.nuget/packages:/home/app/.nuget/packages"
+    working_dir: "/app"
