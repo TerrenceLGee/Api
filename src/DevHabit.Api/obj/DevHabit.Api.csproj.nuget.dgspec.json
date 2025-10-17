@@ -31,7 +31,6 @@
           }
         },
         "warningProperties": {
-          "allWarningsAsErrors": true,
           "warnAsError": [
             "NU1605"
           ]
@@ -47,9 +46,31 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[9.0.0, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.9, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Npgsql.OpenTelemetry": {
+              "target": "Package",
+              "version": "[9.0.4, )",
               "versionCentrallyManaged": true
             },
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
@@ -86,7 +107,11 @@
             }
           },
           "centralPackageVersions": {
+            "EFCore.NamingConventions": "9.0.0",
             "Microsoft.AspNetCore.OpenApi": "9.0.9",
+            "Microsoft.EntityFrameworkCore.Tools": "9.0.10",
+            "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
+            "Npgsql.OpenTelemetry": "9.0.4",
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": "1.13.1",
             "OpenTelemetry.Extensions.Hosting": "1.13.1",
             "OpenTelemetry.Instrumentation.AspNetCore": "1.12.0",
