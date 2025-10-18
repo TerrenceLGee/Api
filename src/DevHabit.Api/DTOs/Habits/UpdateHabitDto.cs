@@ -2,7 +2,7 @@ using DevHabit.Api.Entities;
 
 namespace DevHabit.Api.DTOs.Habits;
 
-internal sealed record UpdateHabitDto
+public sealed record UpdateHabitDto
 {
     public required string Name { get; init; }
     public string? Description { get; init; }
@@ -13,7 +13,7 @@ internal sealed record UpdateHabitDto
     public UpdateMilestoneDto? Milestone { get; init; }
 }
 
-internal sealed record UpdateMilestoneDto
+public sealed record UpdateMilestoneDto
 {
     public required int Target { get; init; }
 }

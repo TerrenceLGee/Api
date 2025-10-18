@@ -51,6 +51,26 @@
               "version": "[9.0.0, )",
               "versionCentrallyManaged": true
             },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[9.0.10, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[9.0.10, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.9, )",
@@ -108,6 +128,10 @@
           },
           "centralPackageVersions": {
             "EFCore.NamingConventions": "9.0.0",
+            "FluentValidation": "12.0.0",
+            "FluentValidation.DependencyInjectionExtensions": "12.0.0",
+            "Microsoft.AspNetCore.JsonPatch": "9.0.10",
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "9.0.10",
             "Microsoft.AspNetCore.OpenApi": "9.0.9",
             "Microsoft.EntityFrameworkCore.Tools": "9.0.10",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
