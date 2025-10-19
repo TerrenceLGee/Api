@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MMiL11Mth2k=",
+  "dgSpecHash": "qkhPg3U9ANg=",
   "success": true,
   "projectFilePath": "/home/terrence/ApiLearning/DevHabit/src/DevHabit.Api/DevHabit.Api.csproj",
   "expectedPackageFiles": [
@@ -70,6 +70,7 @@
     "/home/terrence/.nuget/packages/system.composition.typedparts/7.0.0/system.composition.typedparts.7.0.0.nupkg.sha512",
     "/home/terrence/.nuget/packages/system.diagnostics.diagnosticsource/9.0.0/system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512",
     "/home/terrence/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/home/terrence/.nuget/packages/system.linq.dynamic.core/1.6.9/system.linq.dynamic.core.1.6.9.nupkg.sha512",
     "/home/terrence/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
     "/home/terrence/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/home/terrence/.nuget/packages/system.text.json/9.0.10/system.text.json.9.0.10.nupkg.sha512",
